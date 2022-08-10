@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "praecheese",
+  "version": "${version}",
+
+  "name": "Cheese",
+  "description": "literally just cheese!",
+  "authors": [
+    "Praenyth"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Praenyth/",
+    "sources": "https://github.com/Praenyth/cheese"
+  },
+
+  "license": "MIT",
+  "icon": "assets/praecheese/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.praenyth.cheese.Cheese"
+    ]
+  },
+  "mixins": [
+    "praecheese.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
